@@ -1,0 +1,6 @@
+-I/home/free/srsGUI/include
+-I/usr/include
+-I/usr/include/qwt
+-o
+/home/free/srsGUI/build/src/scatterplot/moc_ScatterWidget.cpp
+/home/free/srsGUI/src/scatterplot/ScatterWidget.h

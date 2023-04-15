@@ -1,0 +1,15 @@
+MANIFEST.in
+README.txt
+VERSION
+_sctp.c
+_sctp.h
+sctp.py
+setup.cfg
+setup.py
+test_local_cnx.py
+test_loopback.py
+test_remote_cnx.py
+pysctp.egg-info/PKG-INFO
+pysctp.egg-info/SOURCES.txt
+pysctp.egg-info/dependency_links.txt
+pysctp.egg-info/top_level.txt

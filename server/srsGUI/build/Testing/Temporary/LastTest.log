@@ -1,0 +1,157 @@
+Start testing: Jan 04 21:05 CST
+----------------------------------------------------------
+1/8 Testing: waterfallplot_test_c
+1/8 Test: waterfallplot_test_c
+Command: "/home/free/srsGUI/build/test/c/waterfallplot_test_c"
+Directory: /home/free/srsGUI/build/test/c
+"waterfallplot_test_c" start time: Jan 04 21:05 CST
+Output:
+----------------------------------------------------------
+Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt. You must
+reimplement QApplication::notify() and catch all exceptions there.
+
+QObject::~QObject: Timers cannot be stopped from another thread
+<end of output>
+Test time =   2.70 sec
+----------------------------------------------------------
+Test Passed.
+"waterfallplot_test_c" end time: Jan 04 21:05 CST
+"waterfallplot_test_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/8 Testing: complexplot_test_c
+2/8 Test: complexplot_test_c
+Command: "/home/free/srsGUI/build/test/c/complexplot_test_c"
+Directory: /home/free/srsGUI/build/test/c
+"complexplot_test_c" start time: Jan 04 21:05 CST
+Output:
+----------------------------------------------------------
+Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt. You must
+reimplement QApplication::notify() and catch all exceptions there.
+
+<end of output>
+Test time =   2.14 sec
+----------------------------------------------------------
+Test Passed.
+"complexplot_test_c" end time: Jan 04 21:05 CST
+"complexplot_test_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/8 Testing: realplot_test_c
+3/8 Test: realplot_test_c
+Command: "/home/free/srsGUI/build/test/c/realplot_test_c"
+Directory: /home/free/srsGUI/build/test/c
+"realplot_test_c" start time: Jan 04 21:05 CST
+Output:
+----------------------------------------------------------
+Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt. You must
+reimplement QApplication::notify() and catch all exceptions there.
+
+<end of output>
+Test time =   2.11 sec
+----------------------------------------------------------
+Test Passed.
+"realplot_test_c" end time: Jan 04 21:05 CST
+"realplot_test_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+4/8 Testing: scatterplot_test_c
+4/8 Test: scatterplot_test_c
+Command: "/home/free/srsGUI/build/test/c/scatterplot_test_c"
+Directory: /home/free/srsGUI/build/test/c
+"scatterplot_test_c" start time: Jan 04 21:05 CST
+Output:
+----------------------------------------------------------
+Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt. You must
+reimplement QApplication::notify() and catch all exceptions there.
+
+<end of output>
+Test time =   2.16 sec
+----------------------------------------------------------
+Test Passed.
+"scatterplot_test_c" end time: Jan 04 21:05 CST
+"scatterplot_test_c" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/8 Testing: waterfallplot_test
+5/8 Test: waterfallplot_test
+Command: "/home/free/srsGUI/build/test/cxx/waterfallplot_test"
+Directory: /home/free/srsGUI/build/test/cxx
+"waterfallplot_test" start time: Jan 04 21:05 CST
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+*** No errors detected
+QObject::~QObject: Timers cannot be stopped from another thread
+<end of output>
+Test time =   4.07 sec
+----------------------------------------------------------
+Test Passed.
+"waterfallplot_test" end time: Jan 04 21:05 CST
+"waterfallplot_test" time elapsed: 00:00:04
+----------------------------------------------------------
+
+6/8 Testing: complexplot_test
+6/8 Test: complexplot_test
+Command: "/home/free/srsGUI/build/test/cxx/complexplot_test"
+Directory: /home/free/srsGUI/build/test/cxx
+"complexplot_test" start time: Jan 04 21:05 CST
+Output:
+----------------------------------------------------------
+Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt. You must
+reimplement QApplication::notify() and catch all exceptions there.
+
+Running 1 test case...
+
+*** No errors detected
+<end of output>
+Test time =   2.64 sec
+----------------------------------------------------------
+Test Passed.
+"complexplot_test" end time: Jan 04 21:06 CST
+"complexplot_test" time elapsed: 00:00:02
+----------------------------------------------------------
+
+7/8 Testing: realplot_test
+7/8 Test: realplot_test
+Command: "/home/free/srsGUI/build/test/cxx/realplot_test"
+Directory: /home/free/srsGUI/build/test/cxx
+"realplot_test" start time: Jan 04 21:06 CST
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+*** No errors detected
+<end of output>
+Test time =   1.48 sec
+----------------------------------------------------------
+Test Passed.
+"realplot_test" end time: Jan 04 21:06 CST
+"realplot_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/8 Testing: scatterplot_test
+8/8 Test: scatterplot_test
+Command: "/home/free/srsGUI/build/test/cxx/scatterplot_test"
+Directory: /home/free/srsGUI/build/test/cxx
+"scatterplot_test" start time: Jan 04 21:06 CST
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+*** No errors detected
+<end of output>
+Test time =   1.46 sec
+----------------------------------------------------------
+Test Passed.
+"scatterplot_test" end time: Jan 04 21:06 CST
+"scatterplot_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Jan 04 21:06 CST

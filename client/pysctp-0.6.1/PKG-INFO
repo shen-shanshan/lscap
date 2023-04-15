@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pysctp
+Version: 0.6.1
+Summary: pysctp is a python module for the SCTP protocol stack and library. 
+Home-page: https://github.com/p1sec/pysctp
+Author: Benoit Michau
+Author-email: benoit.michau@p1sec.com
+License: LGPL
+Description: pysctp is a python module for the SCTP protocol stack and library. It is the socket API implementation, not the SCTPlib implementation (this latest one is not supported anymore by their original developers). On Mac OS X you will need the SCTP NKE (Kernel Extensions) to make it work, use: http://sctp.fh-muenster.de/sctp-nke.html. On Debian-based systems, you need a SCTP-aware kernel (most are) and install the following packages: apt-get install libsctp-dev libsctp1 lksctp-tools
+Keywords: SCTP SIGTRAN
+Platform: Linux
+Platform: Debian
+Platform: Ubuntu
+Platform: Mac OS X (tested on 10.4)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking

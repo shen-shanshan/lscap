@@ -1,0 +1,9 @@
+waterfallplot_test_c 1 2.69793
+complexplot_test_c 1 2.14188
+realplot_test_c 1 2.10931
+scatterplot_test_c 1 2.16124
+waterfallplot_test 1 4.06866
+complexplot_test 1 2.63647
+realplot_test 1 1.48414
+scatterplot_test 1 1.45713
+---

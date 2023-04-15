@@ -1,0 +1,6 @@
+-I/home/free/srsGUI/include
+-I/usr/include
+-I/usr/include/qwt
+-o
+/home/free/srsGUI/build/src/realplot/moc_RealWidget.cpp
+/home/free/srsGUI/src/realplot/RealWidget.h

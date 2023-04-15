@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/scatterplot_test_c.dir/scatterplot_test.c.o  -o scatterplot_test_c -rdynamic ../../src/libsrsgui.so -lm -lpthread /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1 -lqwt-qt5 -Wl,-rpath,/home/free/srsGUI/build/src 

@@ -1,0 +1,6 @@
+-I/home/free/srsGUI/include
+-I/usr/include
+-I/usr/include/qwt
+-o
+/home/free/srsGUI/build/src/__/include/srsgui/common/moc_Spectrogramplot.cpp
+/home/free/srsGUI/include/srsgui/common/Spectrogramplot.h

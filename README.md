@@ -1,2 +1,2 @@
 # LSCAP
- LTE Signaling Control and Analyze Platform
+LTE Signaling Control and Analyze Platform

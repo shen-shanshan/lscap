@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/artifice/razer/src/utils/dynamic_memory_check.c
+stdlib.h
+-
+dynamic_memory_check.h
+/home/artifice/razer/src/utils/dynamic_memory_check.h
+
+/home/artifice/razer/src/utils/dynamic_memory_check.h
+

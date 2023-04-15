@@ -1,0 +1,6 @@
+-I/home/free/srsGUI/include
+-I/usr/include
+-I/usr/include/qwt
+-o
+/home/free/srsGUI/build/src/keyvalue/moc_KeyValueWrapper.cpp
+/home/free/srsGUI/src/keyvalue/KeyValueWrapper.h

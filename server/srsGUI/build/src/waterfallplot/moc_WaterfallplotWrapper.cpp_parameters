@@ -1,0 +1,6 @@
+-I/home/free/srsGUI/include
+-I/usr/include
+-I/usr/include/qwt
+-o
+/home/free/srsGUI/build/src/waterfallplot/moc_WaterfallplotWrapper.cpp
+/home/free/srsGUI/src/waterfallplot/WaterfallplotWrapper.h
