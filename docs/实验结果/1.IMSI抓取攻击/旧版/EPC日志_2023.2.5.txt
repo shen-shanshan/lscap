@@ -1,0 +1,52 @@
+---  Software Radio Systems EPC  ---
+
+Reading configuration file epc.conf...
+HSS Initialized.
+MME S11 Initialized
+MME GTP-C Initialized
+Leap: init ...
+MME Initialized. MCC: 0xf208, MNC: 0xff93
+SPGW GTP-U Initialized.
+SPGW S11 Initialized.
+SP-GW Initialized.
+Leap: SCTP socket create success!
+Leap: bind success!
+Leap: listen success!
+Leap: accept success!
+Leap: waiting ...
+Received S1 Setup Request.
+S1 Setup Request - eNB Name: srsenb01, eNB id: 0x19b
+S1 Setup Request - MCC:208, MNC:93
+S1 Setup Request - TAC 7, B-PLMN 0x2f839
+S1 Setup Request - Paging DRX v128
+Sending S1 Setup Response
+Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+Received Initial UE message -- Attach Request
+Attach request -- IMSI: 208930000000005
+Attach request -- eNB-UE S1AP Id: 1
+Attach request -- Attach type: 2
+Attach Request -- UE Network Capabilities EEA: 11110000
+Attach Request -- UE Network Capabilities EIA: 01110000
+Attach Request -- MS Network Capabilities Present: true
+PDN Connectivity Request -- EPS Bearer Identity requested: 0
+PDN Connectivity Request -- Procedure Transaction Id: 12
+PDN Connectivity Request -- ESM Information Transfer requested: false
+handle_imsi_attach_request_unknown_ue
+Leap: communicate with client at [nas::handle_imsi_attach_request_unknown_ue()]
+Leap: [initial_attach_request] eps_bearer_id = 0
+Leap: send message
+Leap: loop ...
+Leap: receive command from client
+Leap: EXIT_LEAP_LOOP
+Leap: communicate with client finished
+Failed to send S1AP PDU. Error: Broken pipe
+Downlink NAS: Sending Authentication Request
+SCTP Association Shutdown. Association: 19
+Deleting eNB context. eNB Id: 0x19b
+Releasing UEs context
+Releasing UE ECM context. UE-MME S1AP Id: 1
+^CStopping ..
+Deleting UE EMM context. IMSI: 208930000000005
+Saving S1AP PCAP file (DLT=150) to /tmp/epc.pcap
+
+---  exiting  ---

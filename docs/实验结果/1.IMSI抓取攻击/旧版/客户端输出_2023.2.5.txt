@@ -1,0 +1,29 @@
+free@free:~$ python client.py 
+[Leap]: 当前插桩点为 srs/epc/mme/nas.cc 中处理 UE 初始 attach_request 的位置
+[Leap]: 当前可以执行的攻击有：[1]IMSI 抓取攻击、[2]麻木攻击、[3]鉴权同步失败攻击
+[Leap]: 若您希望执行攻击[1]，请输入 1
+[Leap]: 若您希望执行攻击[2]，请输入 2
+[Leap]: 若您希望执行攻击[3]，请输入 3
+[Leap]: 若您希望跳过该插桩点，请输入 0
+1
+[Leap]: imsi_acquire_attack start...
+{'digit1': '2',
+ 'digit10': '0',
+ 'digit11': '0',
+ 'digit12': '0',
+ 'digit13': '0',
+ 'digit14': '0',
+ 'digit15': '5',
+ 'digit2': '0',
+ 'digit3': '8',
+ 'digit4': '9',
+ 'digit5': '3',
+ 'digit6': '0',
+ 'digit7': '0',
+ 'digit8': '0',
+ 'digit9': '0',
+ 'oddeven': '1',
+ 'typeofidentity': '1'}
+[Leap]: 请问您是否希望跳过当前插桩点，继续协议栈原流程？如果是请输入 1
+1
+[Leap]: continue...

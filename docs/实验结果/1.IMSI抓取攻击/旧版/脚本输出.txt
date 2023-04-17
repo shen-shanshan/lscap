@@ -1,0 +1,20 @@
+free@free:~$ python imsi_acquire.py 
+retrieving emm_ctx: 6.38961791992e-05
+lib_nas_msg_decode time : 0.000153064727783
+{'digit1': '2',
+ 'digit10': '0',
+ 'digit11': '0',
+ 'digit12': '0',
+ 'digit13': '0',
+ 'digit14': '0',
+ 'digit15': '5',
+ 'digit2': '0',
+ 'digit3': '8',
+ 'digit4': '9',
+ 'digit5': '3',
+ 'digit6': '0',
+ 'digit7': '0',
+ 'digit8': '0',
+ 'digit9': '0',
+ 'oddeven': '1',
+ 'typeofidentity': '1'}

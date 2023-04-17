@@ -1,0 +1,5 @@
+free@free:~$ python client_2.0.py
+[Leap]: 当前插桩点为 epc/mme/nas.cc: handle_imsi_unknown_ue_attach()
+[Leap]: 请输入您希望执行的指令: 15
+[Leap]: set and send identity_request message
+[Leap]: 请输入您希望执行的指令: 

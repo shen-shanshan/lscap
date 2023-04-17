@@ -1,0 +1,15 @@
+free@free:~$ python auth_reject_attack.py 
+retrieving emm_ctx: 0.000176906585693
+lib_nas_msg_decode time : 2.31266021729e-05
+retrieving emm_ctx: 0.000104904174805
+lib_nas_msg_decode time : 1.4066696167e-05
+retrieving emm_ctx: 0.0001060962677
+lib_nas_msg_decode time : 1.4066696167e-05
+Traceback (most recent call last):
+  File "auth_reject_attack.py", line 17, in <module>
+    message_id, ue_id, length, msg = le.recv(buf_size)
+  File "/home/free/leap/func.py", line 92, in recv
+    msg = string_at(addressof(pbuf)+3*sizeof(c_ubyte), len(buf)-3*sizeof(c_ubyte))
+  File "/usr/lib/python2.7/ctypes/__init__.py", line 506, in string_at
+    return _string_at(ptr, size)
+SystemError: Negative size passed to PyString_FromStringAndSize
