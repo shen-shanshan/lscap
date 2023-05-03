@@ -1,6 +1,0 @@
-free@free:~$ python client_2.0.py 
-[Leap]: 当前插桩点为 epc/mme/nas.cc: handle_imsi_unknown_ue_attach()
-[Leap]: 请输入您希望执行的指令: 9
-[Leap]: set and send authentication reject
-[Leap]: 请输入您希望执行的指令: -1
-[Leap]: exit loop

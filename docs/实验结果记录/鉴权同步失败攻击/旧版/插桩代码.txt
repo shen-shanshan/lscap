@@ -1,0 +1,22 @@
+// Insert code
+  if (msg_type == LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST) {
+    srsran::console("Received Initial UE message -- Attach Request\n");
+    m_logger.info("Received Initial UE message -- Attach Request");
+  
+    // Authentication Failure
+    if (leap_send(assocfd,
+                  LEAP_INITIAL_NAS_DATA,
+                  enb_ue_s1ap_id,
+                  (char*)nas_msg->msg,
+                  nas_msg->N_bytes)) {
+      for(int i = 0; i < 5; i++)
+            {
+                int recv_size = sctp_recvmsg(assocfd, recvbuf, 8192, NULL, NULL, NULL, NULL);
+                // bstring modified_nas_msg_p = blk2bstr(recvBuf, blength(*(&nas_est_ind_p->initial_nas_msg)));
+                srsran::byte_buffer_t* modified_nas_msg_p = (srsran::byte_buffer_t*)recvbuf;
+                // nas_proc_establish_ind(nas_est_ind_p->ue_id, nas_est_ind_p->tai, nas_est_ind_p->cgi, &modified_nas_msg_p);
+                err = nas::handle_attach_request(enb_ue_s1ap_id, enb_sri, modified_nas_msg_p, m_nas_init, m_nas_if);
+                printf("\nmodified_nas_msg_p use %d times\n", i);
+            }
+    }
+  }
