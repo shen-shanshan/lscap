@@ -12,7 +12,7 @@
 
 ## srsRAN 环境搭建教程
 
-### 1 安装 Ubuntu 系统
+### 安装 Ubuntu 系统
 
 > 运行本项目需要安装 Ubuntu 16.04 LTS 最新版的实体机环境。
 
@@ -106,7 +106,7 @@ sudo update-grub
 
 重启系统。
 
-### 2 安装 srsRAN
+### 安装 srsRAN
 
 安装 `electron-ssr-0.2.6.AppImage`（VPN）：
 
@@ -178,7 +178,7 @@ sudo ldconfig
 
 > LSCAP 的服务端集成于 srsRAN 的 EPC 中，与 srsepc 的代码一起进行编译和运行。
 
-### 1 替换配置文件
+### 替换配置文件
 
 1. 在终端输入 `cd ~/.config/srsran`
 2. 替换其中的 `enb.conf`、`epc.conf` 以及 `user_db.csv`
@@ -191,7 +191,7 @@ sudo ldconfig
 
 > LSCAP 的客户端由一些 Python 模块组成，不需要安装，修改配置后即可直接使用。
 
-### 1 安装 pysctp 库
+### 安装 pysctp 库
 
 安装 pysctp-0.6.1 库：
 
@@ -199,12 +199,12 @@ sudo ldconfig
 pip insall pysctp pysctp3
 ```
 
-### 2 修改客户端配置
+### 修改客户端配置
 
 1. 将 lscap 文件夹拷贝至 `home/用户名` 下
 2. 在 lscap 文件夹中的 `func.py` 文件开头导入的文件路径中，将所有的用户名修改为自己的用户名
 
-### 3 编译编解码共享库
+### 编译编解码共享库
 
 编译编解码共享库：
 
@@ -219,7 +219,7 @@ cmake ..
 
 ## 硬件设备
 
-### 1 EPC & eNB
+### EPC & eNB
 
 本项目的 EPC 和 eNB 使用基于 Ubuntu 16.04.7 LTS 操作系统的个人计算机进行部署和运行。
 
@@ -242,7 +242,7 @@ EPC 与 eNB 之间使用网线进行连接。
 
 > EPC 与 eNB 之间采用 sctp 协议建立 socket 连接。
 
-### 2 USRP
+### USRP
 
 eNB 使用 USRP B210 作为射频外设。
 
@@ -250,7 +250,7 @@ USRP B210 实物图：
 
 ![image-20230503175256960](images/image-20230503175256960.png)
 
-### 3 UE
+### UE
 
 本项目使用 `HUAWEI MLA-AL 10` 作为测试的终端设备。
 
@@ -260,7 +260,7 @@ UE 实物图：
 
 ## 运行项目
 
-### 1 运行 EPC
+### 运行 EPC
 
 > 为了更好地观察并分析实验效果，需要在实验开始之前在 EPC 上运行 Wireshark 软件。
 
@@ -269,19 +269,19 @@ cd ~/.config/srsran
 sudo srsepc epc.conf
 ```
 
-### 2 运行客户端
+### 运行客户端
 
 ```shell
 ./ client
 ```
 
-### 3 运行 eNB
+### 运行 eNB
 
 ```shell
 cd ~/.config/srsran
 sudo srsenb enb.conf
 ```
 
-### 4 启动终端
+### 启动终端
 
 打开终端的网络连接，然后终端就会向我们搭建的 LTE 网络（srsRAN）发起附着请求。
